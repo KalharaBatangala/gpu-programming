@@ -6,6 +6,7 @@ This repository, `CUDA_Dev_1`, is a collection of CUDA programming lessons desig
 This repository is integrated with Visual Studio 2022 for development and GitHub for version control, showcasing industry-standard practices for project organization and build management.
 
 [![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-zone)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 [![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)](https://visualstudio.microsoft.com/)
 
 
@@ -104,5 +105,3 @@ To add a new lesson:
 ## Contributing
 This repository is a personal learning project, but contributions or suggestions are welcome! Please open an issue or submit a pull request on GitHub.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
