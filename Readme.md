@@ -96,6 +96,14 @@ To add a new lesson:
 4. Set the preprocessor definition to `LESSON_NEW_LESSON=1` in project properties.
 5. Build and run.
 
+
+![Create a new cuda file]("CUDA_Dev_1/ss/ss1.png")
+
+
+
+
+
+1. 
 ## Notes
 - **Preprocessor Definitions**: Each `.cu` file in `examples/` has its `main` function wrapped in a unique preprocessor directive (e.g., `#ifdef LESSON_HELLO_WORLD`). This ensures only one `main` function is compiled at a time, preventing linker errors.
 - **Common Utilities**: The `common/` directory contains shared code (e.g., `utils.h`, `utils.cu`) for reusable functions like CUDA error checking or timing utilities.

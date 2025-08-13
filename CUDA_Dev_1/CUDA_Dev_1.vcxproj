@@ -55,8 +55,11 @@
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
-      <Defines>LESSON_THREAD_HIERARCHY=1</Defines>
+      <Defines>LESSON_MEMORY_MANAGEMENT2=1</Defines>
     </CudaCompile>
+    <CudaLink>
+      <PerformDeviceLink>true</PerformDeviceLink>
+    </CudaLink>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -75,11 +78,16 @@
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
+      <Defines>LESSON_MEMORY_MANAGEMENT2=1</Defines>
     </CudaCompile>
+    <CudaLink>
+      <PerformDeviceLink>true</PerformDeviceLink>
+    </CudaLink>
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="examples\lesson_1_thread_hierarchy.cu" />
     <CudaCompile Include="examples\lesson_2_memory_management.cu" />
+    <CudaCompile Include="examples\new.cu" />
     <CudaCompile Include="kernel.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
