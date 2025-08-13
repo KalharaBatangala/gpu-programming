@@ -97,7 +97,7 @@ To add a new lesson:
 5. Build and run.
 
 
-![Create a new cuda file]("CUDA_Dev_1/ss/ss1.png")
+![Create a new cuda file](CUDA_Dev_1/ss/ss1.png)
 
 
 
