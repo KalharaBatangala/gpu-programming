@@ -102,6 +102,7 @@ Add the file created in the `examples/` directory to the project:<br>
 ![Go to project](CUDA_Dev_1/ss/ss2.png) <br>
 ![Add existing items](CUDA_Dev_1/ss/ss3.png)
 <br>
+The file has been added to the project:<br>
 ![Add existing items](CUDA_Dev_1/ss/ss5.png) <br>
 
 
