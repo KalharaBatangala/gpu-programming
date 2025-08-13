@@ -55,7 +55,7 @@
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
-      <Defines>LESSON_MEMORY_MANAGEMENT=1</Defines>
+      <Defines>LESSON_THREAD_HIERARCHY=1</Defines>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

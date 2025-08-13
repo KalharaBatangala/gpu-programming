@@ -1,5 +1,6 @@
 #include <stdio.h>  // For printf
 #include <cuda_runtime.h> // CUDA runtime API (optional, but good practice)
+#include <iostream> 
 
 #if LESSON_THREAD_HIERARCHY
 
@@ -18,6 +19,7 @@ int main() {
 
     // Wait for GPU to finish before CPU continues
     cudaDeviceSynchronize();
+	std::cout << "Kernel launched, waiting for completion..." << std::endl;
 
     return 0;
 }
