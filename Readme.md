@@ -96,8 +96,10 @@ To add a new lesson:
 4. Set the preprocessor definition to `LESSON_NEW_LESSON=1` in project properties.
 5. Build and run.
 
-
+## Screenshots
+Add the file created in the `examples/` directory to the project:
 ![Create a new cuda file](CUDA_Dev_1/ss/ss1.png)
+![Go to project](CUDA_Dev_1/ss/ss2.png)
 
 
 
