@@ -1,11 +1,11 @@
 ﻿#include <iostream>
+#ifdef LESSON_MAIN
 
 // CUDA Kernel function to add 1 to each element
 __global__ void helloFromGPU() {
 	int threadNum = blockIdx.x * blockDim.x + threadIdx.x;
     printf("Hello World from GPU thread %d!\n", threadNum);
 }
-#ifdef LESSON_MAIN
 int main() {
     // Launch kernel with 5 threads
     helloFromGPU << <3, 4 >> > ();
